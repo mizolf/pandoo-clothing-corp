@@ -9,20 +9,20 @@
  */
 {
   "current": {
-    "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#121212",
+    "colors_solid_button_labels": "#333333",
+    "colors_accent_1": "#87de87",
     "gradient_accent_1": "",
     "colors_accent_2": "#334fb4",
     "gradient_accent_2": "",
-    "colors_text": "#121212",
+    "colors_text": "#333333",
     "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#ffffff",
+    "colors_background_1": "#e5e5e5",
     "gradient_background_1": "",
     "colors_background_2": "#f3f3f3",
     "gradient_background_2": "",
     "type_header_font": "libre_baskerville_n7",
     "heading_scale": 100,
-    "type_body_font": "assistant_n4",
+    "type_body_font": "raleway_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
@@ -44,7 +44,7 @@
     "variant_pills_shadow_blur": 5,
     "inputs_border_thickness": 1,
     "inputs_border_opacity": 55,
-    "inputs_radius": 0,
+    "inputs_radius": 12,
     "inputs_shadow_opacity": 0,
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
@@ -153,6 +153,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
+          "logo": "shopify://shop_images/logo-pandoo_5e511d19-dc89-4da6-b319-321af2a541a1.png",
           "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -195,6 +196,7 @@
           "footer-1",
           "footer-2"
         ],
+        "custom_css": [],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
