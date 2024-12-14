@@ -21,19 +21,34 @@
   }
 }
 
-.multicolumn-card__image-wrapper--third-width {
+.multicolumn-card__image{
+  background-color: rgb(var(--color-base-accent-1));
+  border-radius: 50%;
+  padding: 20px;
+  overflow: visible;
+  height: 120px;
+  width: 120px;
+  position: relative !important;
+}
+
+/* .multicolumn-card__image-wrapper--third-width {
   width: 33%;
 }
 
 .multicolumn-card__image-wrapper--half-width {
   width: 50%;
-}
+} */
 
 .multicolumn-list__item.center
   .multicolumn-card__image-wrapper:not(.multicolumn-card__image-wrapper--full-width),
 .multicolumn-list__item:only-child {
-  margin-left: auto;
   margin-right: auto;
+}
+
+.multicolumn-card__image-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .multicolumn .button {
@@ -133,7 +148,19 @@
 }
 
 .multicolumn-card__info {
-  padding: 2.5rem;
+  color: rgb(var(--color-background));
+
+}
+
+.multicolumn-card__info--title{
+  color: rgb(var(--color-background));
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-left: 24px !important;
 }
 
 .background-none .multicolumn-card__info {
@@ -147,7 +174,7 @@
 }
 
 .background-none .multicolumn-card__image-wrapper + .multicolumn-card__info {
-  padding-top: 2.5rem;
+  padding-top: 1rem;
 }
 
 .background-none .slider .multicolumn-card__info {
@@ -181,7 +208,6 @@
 
 @media screen and (min-width: 750px) {
   .background-none .multicolumn-card__image-wrapper {
-    margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
 
@@ -198,6 +224,7 @@
 .multicolumn-card {
   position: relative;
   box-sizing: border-box;
+  padding: 32px;
 }
 
 .multicolumn-card > .multicolumn-card__image-wrapper--full-width:not(.multicolumn-card-spacing) {
@@ -208,6 +235,7 @@
 
 .multicolumn.background-none .multicolumn-card {
   border-radius: 0;
+  background-color: rgb(var(--color-foreground));
 }
 
 .multicolumn-card__info .link {
@@ -225,4 +253,9 @@
   .multicolumn-list__item--empty {
     display: list-item;
   }
+}
+
+.multicolumn-card__info {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
