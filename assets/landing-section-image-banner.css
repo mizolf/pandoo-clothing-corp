@@ -22,7 +22,7 @@
 .banner__box--content {
   display: flex;
   flex-direction: column;
-  padding: 0 1.5rem;
+  padding: 0 56px;
 }
 
 .banner__heading {
@@ -43,6 +43,11 @@
   text-decoration-skip-ink: none;
   line-height: 21.13px;
 }
+
+.banner{
+  position: relative;
+}
+
 
 @media screen and (min-width: 750px) {
   .banner__box {
@@ -67,10 +72,19 @@
 }
 
 @media screen and (min-width: 750px) {
+  .landing-banner__media{
+    height: 640px !important;
+    position: relative;
+  }
   .banner__box {
     width: auto;
     max-width: 71rem;
     min-width: 45rem;
+  }
+  .landing-banner__content{
+    position: absolute;
+    top: 307px;
+    left: 196px;
   }
 }
 @media screen and (max-width: 749px) {
@@ -89,6 +103,13 @@
   .banner__box--content {
     order: 0;
     padding: 32px !important;
+  }
+  .banner__content{
+    padding: 0;
+  }
+
+  .landing-banner__media{
+    height: 432px !important;
   }
 
   .banner__heading {

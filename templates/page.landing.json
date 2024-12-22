@@ -16,27 +16,27 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_MBrEEc": {
-      "type": "image-banner",
+    "landing_image_banner_UgTMb3": {
+      "type": "landing-image-banner",
       "blocks": {
-        "heading_UC8aCi": {
+        "heading_hGWJ8b": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Hero title",
             "heading_size": "h1"
           }
         },
-        "text_TwNGyA": {
+        "text_QgbV7D": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "I'm Brian, and so's my wife! Listen, strange women lyin' in ponds distributin' swords is no basis for a system of government. Supreme executive power derives from a mandate from the masses, not from some farcical aquatic ceremony.",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_UC8aCi",
-        "text_TwNGyA"
+        "heading_hGWJ8b",
+        "text_QgbV7D"
       ],
       "settings": {
         "image": "shopify://shop_images/multiy_wind.png",
@@ -52,44 +52,47 @@
         "show_text_below": true
       }
     },
-    "multicolumn_PpY6BL": {
-      "type": "multicolumn",
+    "landing_multicolumn_FH9a6K": {
+      "type": "landing-multicolumn",
       "blocks": {
-        "column_eNYTnq": {
+        "column_HVpdTB": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/world_1.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Card title",
+            "subtitle": "Card subtitle",
+            "text": "<p>You don't frighten us, English pig dogs. Go and boil your bottoms, you sons of a silly person. I blow my nose at you, so-called \"Arthur King,\" you and all your silly English K-nig-hts. Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off! Oh, king eh? Very nice. And how'd you get that, eh? By exploiting the workers.</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_fFfkKL": {
+        "column_QpwXNh": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/solar_1.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Card title",
+            "subtitle": "Card subtitle",
+            "text": "<p>You don't frighten us, English pig dogs. Go and boil your bottoms, you sons of a silly person. I blow my nose at you, so-called \"Arthur King,\" you and all your silly English K-nig-hts. Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off! Oh, king eh? Very nice. And how'd you get that, eh? By exploiting the workers.</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_9dyWUY": {
+        "column_t9LiVi": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/wind_1.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Card title",
+            "subtitle": "Card subtitle",
+            "text": "<p>You don't frighten us, English pig dogs. Go and boil your bottoms, you sons of a silly person. I blow my nose at you, so-called \"Arthur King,\" you and all your silly English K-nig-hts. Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off! Oh, king eh? Very nice. And how'd you get that, eh? By exploiting the workers.</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_eNYTnq",
-        "column_fFfkKL",
-        "column_9dyWUY"
+        "column_HVpdTB",
+        "column_QpwXNh",
+        "column_t9LiVi"
       ],
       "settings": {
         "title": "Multicolumn",
@@ -108,30 +111,53 @@
         "padding_bottom": 100
       }
     },
-    "image_with_text_YJQtpW": {
-      "type": "image-with-text",
+    "rich_text_TJkhPD": {
+      "type": "rich-text",
       "blocks": {
-        "heading_pCxGDw": {
+        "heading_yhPTyd": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "<p>Section title</p>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yhPTyd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 100
+      }
+    },
+    "landing_image_with_text_TmrMXh": {
+      "type": "landing-image-with-text",
+      "blocks": {
+        "heading_A9ND3H": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subsection Title",
+            "heading_size": "h2"
           }
         },
-        "text_Q4GMiR": {
+        "text_QmtJA6": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>You don't frighten us, English pig dogs. Go and boil your bottoms, you sons of a silly person. I blow my nose at you, so-called \"Arthur King,\" you and all your silly English K-nig-hts. Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off! Oh, king eh? Very nice. And how'd you get that, eh? By exploiting the workers. By hanging on to outdated imperialist dogma which perpetuates the economic and social differences in our society.<br/><br/>Are you suggesting coconuts migrate? The Lady of the Lake, her arm clad in the purest shimmering samite held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. THAT is why I am your king. Come and see the violence inherent in the system. Help! Help! I'm being repressed! I'm Brian, and so's my wife! I don't want to talk to you no more, you empty-headed animal food trough wiper! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries!<br/><br/>What is the capital of Assyria? Listen, strange women lyin' in ponds distributin' swords is no basis for a system of government. Supreme executive power derives from a mandate from the masses, not from some farcical aquatic ceremony.<br/><br/></p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_pCxGDw",
-        "text_Q4GMiR"
+        "heading_A9ND3H",
+        "text_QmtJA6"
       ],
       "settings": {
-        "image": "shopify://shop_images/one_wind.png",
+        "image": "shopify://shop_images/pinwheel-50512_1280.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -140,34 +166,34 @@
         "content_layout": "no-overlap",
         "color_scheme": "inverse",
         "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 16,
+        "padding_bottom": 64
       }
     },
-    "image_with_text_cwtqe4": {
-      "type": "image-with-text",
+    "landing_image_with_text_PphqMG": {
+      "type": "landing-image-with-text",
       "blocks": {
-        "heading_c63aAh": {
+        "heading_9Md764": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "Subsection title",
+            "heading_size": "h2"
           }
         },
-        "text_dQADWG": {
+        "text_KxhbzV": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>You don't frighten us, English pig dogs. Go and boil your bottoms, you sons of a silly person. I blow my nose at you, so-called \"Arthur King,\" you and all your silly English K-nig-hts. Oh, oh, I see! Running away, eh? You yellow bastards! Come back here and take what's coming to you! I'll bite your legs off! Oh, king eh? Very nice. And how'd you get that, eh? By exploiting the workers. By hanging on to outdated imperialist dogma which perpetuates the economic and social differences in our society.<br/><br/>Are you suggesting coconuts migrate? The Lady of the Lake, her arm clad in the purest shimmering samite held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. THAT is why I am your king. Come and see the violence inherent in the system. Help! Help! I'm being repressed! I'm Brian, and so's my wife! I don't want to talk to you no more, you empty-headed animal food trough wiper! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries!<br/><br/>What is the capital of Assyria? Listen, strange women lyin' in ponds distributin' swords is no basis for a system of government. Supreme executive power derives from a mandate from the masses, not from some farcical aquatic ceremony.<br/><br/></p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_c63aAh",
-        "text_dQADWG"
+        "heading_9Md764",
+        "text_KxhbzV"
       ],
       "settings": {
-        "image": "shopify://shop_images/solar_multi.jpg",
+        "image": "shopify://shop_images/photovoltaic-system-2742302_1920.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -176,14 +202,64 @@
         "content_layout": "no-overlap",
         "color_scheme": "inverse",
         "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 96
       }
     },
-    "slideshow_JyFwnf": {
-      "type": "slideshow",
+    "landing_rich_text_button_CH3YzE": {
+      "type": "landing-rich-text-button",
       "blocks": {
-        "slide_geiPpt": {
+        "button_fW4UNz": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_fW4UNz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 96
+      }
+    },
+    "rich_text_yNnxeX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3fbBNc": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Section title</p>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3fbBNc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 96,
+        "padding_bottom": 100
+      }
+    },
+    "landing_slideshow_BgjnXz": {
+      "type": "landing-slideshow",
+      "blocks": {
+        "slide_yHLQCP": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/solar_panel_on_roof.jpg",
@@ -201,7 +277,7 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_KfLYRB": {
+        "slide_nHiDfX": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/energy-2181904_1920.jpg",
@@ -219,10 +295,10 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_E9rRzW": {
+        "slide_7bwGEp": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/multy_solar.png",
+            "image": "shopify://shop_images/photovoltaic-system-2742302_1920.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -237,7 +313,7 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_gQcHnz": {
+        "slide_86eXUt": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/wind_in_clouds.jpg",
@@ -255,7 +331,7 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_r77cyC": {
+        "slide_btGH8J": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/wind_one.jpg",
@@ -275,14 +351,14 @@
         }
       },
       "block_order": [
-        "slide_geiPpt",
-        "slide_KfLYRB",
-        "slide_E9rRzW",
-        "slide_gQcHnz",
-        "slide_r77cyC"
+        "slide_yHLQCP",
+        "slide_nHiDfX",
+        "slide_7bwGEp",
+        "slide_86eXUt",
+        "slide_btGH8J"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": false,
@@ -327,11 +403,14 @@
   },
   "order": [
     "main",
-    "image_banner_MBrEEc",
-    "multicolumn_PpY6BL",
-    "image_with_text_YJQtpW",
-    "image_with_text_cwtqe4",
-    "slideshow_JyFwnf",
+    "landing_image_banner_UgTMb3",
+    "landing_multicolumn_FH9a6K",
+    "rich_text_TJkhPD",
+    "landing_image_with_text_TmrMXh",
+    "landing_image_with_text_PphqMG",
+    "landing_rich_text_button_CH3YzE",
+    "rich_text_yNnxeX",
+    "landing_slideshow_BgjnXz",
     "newsletter_aR6GQd"
   ]
 }
